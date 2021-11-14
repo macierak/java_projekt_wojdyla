@@ -44,4 +44,8 @@ public class Building {
     public void setUlica(String ulica) {
         Ulica = ulica;
     }
+
+   
+
+
 }

@@ -30,7 +30,7 @@ public class DatabaseController implements CommandLineRunner {
     };
 
     public List<Seance> moviesByDay(String day){
-        List<Seance> seans = seansDb.findByDate(day);
+        List<Seance> seans = seansDb.findByData(day);
         return seans;
     }
 
